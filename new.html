@@ -1,0 +1,341 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>AgriBD</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" type="image/png" href="/assets/icons/favicon_AgriBD_16x16-986d6d73f9ab89558b7379fa749eb28229b23db4aeec5f861a6af1aa356f4d48.png" sizes="16x16" />
+    <link rel="shortcut icon" type="image/png" href="/assets/icons/favicon_AgriBD_32x32-89dc80b426326123d70e22d6bcc0e8aa005a40a9639a212348f014e03b325b4b.png" sizes="32x32" />
+    <link rel="shortcut icon" type="image/png" href="/assets/icons/favicon_AgriBD_96x96-a883d9f52c549a527bc9c464e9eaa0ea8ad978cbb60c5af0d9b463997de71148.png" sizes="96x96" />
+
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="YJx1QPoBAXsHBVIWxru8p6/8KTlqn8mKLlC/u1KIXgEBVtyKqGfiphYFEMzW7NfjvNeJQ5Ka1l9HYer9xL8Xhg==" />
+    <!-- Facebook Open Graph data -->
+<meta property="og:title" content="Agri Marketplace - Fairtrade made easy" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://AgriBD.com" />
+<meta property="og:image" content="https://AgriBD-prod.s3.amazonaws.com/public/AgriBD_Social_Banner.png" />
+<meta property="og:description" content="A b2b digital marketplace where fair food trade is made easy, fast and transparent!"
+<meta property="og:site_name" content="Agri Marketplace - Fairtrade made easy" />
+
+<!-- Twitter Card data -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@AgriMarketplace">
+<meta name="twitter:title" content="Agri Marketplace - Fairtrade made easy">
+<meta name="twitter:description" content="A b2b digital marketplace where fair food trade is made easy, fast and transparent!"
+<meta name="twitter:creator" content="@AgriMarketplace">
+<meta name="twitter:image:src" content="https://AgriBD-prod.s3.amazonaws.com/public/AgriBD_Social_Banner.png">
+
+
+    <link rel="stylesheet" media="all" href="/assets/application-47b389be11b663b10bb2b92a398a55052ceb26b9e71ec91737a8ae74098372fe.css" data-turbolinks-track="reload" />
+    <script src="/assets/application-9f2113c9c18cbc6d837b967e03d8fd3559c6656c6a00d9ae4a6ff6d7b5f3f7c3.js" data-turbolinks-track="reload"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+      <script src="https://www.googletagmanager.com/gtag/js?id=UA-107910564-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-107910564-1' );
+        </script>
+      <!-- Google Tag Manager -->
+      <script>
+          (function (w, d, s, l, i) {
+              w[l] = w[l] || [];
+              w[l].push({
+                  'gtm.start':
+                      new Date().getTime(), event: 'gtm.js'
+              });
+              var f = d.getElementsByTagName(s)[0],
+                  j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+              j.async = true;
+              j.src =
+                  'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+              f.parentNode.insertBefore(j, f);
+          })(window, document, 'script', 'dataLayer', 'GTM-PTXT9LJ');
+      </script>
+      <!-- End Google Tag Manager -->
+  </head>
+
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+      <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PTXT9LJ"
+              height="0" width="0" style="display:none;visibility:hidden">
+      </iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <nav class="navbar-expand-md navbar-static-top">
+  <div class="header-navbar-top">
+    <div class="container">
+      <div class="float-left">
+        <img class="icn-globe" src="/assets/icons/globe-47d707b2f869a5a1a6d0c94da47878f26c948ed8cdbe2130f6b3add0bd906c60.png" alt="Globe" />
+        <div class="dropdown heaver-navbar-top__language">
+          <a href="#" class="dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Language (EN)
+            <img src="/assets/icons/white_arrow_down-cffad3bb8a73dc18648ac6ae872d320f49286fd0622d9be28dd45ef0cd628bfc.png" alt="White arrow down" />
+          </a>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="/en/home/index">
+              <img width="20" alt="GB" src="/assets/country-4x3/gb-35fdfc7082940f7268a27b2c8a2a4e3861cb88a780b3341419180cb2856aadf2.svg" />
+              English (EN)
+            </a>
+            <a class="dropdown-item" href="/pt/home/index">
+              <img width="20" alt="#{locale}" src="/assets/country-4x3/pt-d8f246ae139c60bade9fbe1047ce9c5e668be01c3b6d445fc87fbd0a328d2760.svg" />
+              Portuguese (PT)
+            </a>
+            <a class="dropdown-item" href="/es/home/index">
+              <img width="20" alt="#{locale}" src="/assets/country-4x3/es-4c2d01e3cfe896cbcaa0edaf59cb79eacf48f7bd1b463c2ba667cff864479a60.svg" />
+              Spanish (ES)
+            </a>
+            <a class="dropdown-item" href="/fr/home/index">
+              <img width="20" alt="#{locale}" src="/assets/country-4x3/fr-9dc10f74431a42978154d1f4e5709d5713eb3010e3dab1b4355def41f5cb2f40.svg" />
+              French (FR)
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="float-right text-right">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2" aria-controls="exCollapsingNavbar2" aria-expanded="false" aria-label="Toggle navigation">
+          &#9776;
+        </button>
+        <div class="navbar-collapse collapse" id="exCollapsingNavbar2">
+          <ul class="nav navbar-nav">
+            <li class="nav-item mr-2">
+              <img class="icn-user" src="/assets/icons/user-48c5c2f8756233793d71750da1ec6ca1d0463c3b961c59faf0e02306b85a63ee.png" alt="User" />
+              <a href="/users/sign_in">Login</a>
+            </li>
+            <li class="nav-item mr-2">
+              <a class="btn btn-solid btn-sm mt-1" style="width: 100px" href="/users/sign_up">Sign Up</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="header-navbar-bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-4 img-logo-div p-0">
+          <a href="/"><img class="img-logo" src="/assets/icons/AgriBD-color-96993599fe22f60c70ba2151ca8ecc468e64db6da1ce5938aed791dc9b7530ef.png" alt="AgriBD color" /></a>
+        </div>
+        <div class="col-sm-12 col-md-8 navbar-items-div p-0">
+          <ul class="nav navbar-nav float-sm-right flex-row">
+            <li class="nav-item"><a class="nav-link" id="/" href="/">Home</a></li>
+            <li class="nav-item"><a class="nav-link" id="/commodities" href="/commodities">Market</a></li>
+            <li class="nav-item"><a class="nav-link" id="/tools" href="/tools">Crop Converter</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle">About us</a>
+              <ul class="dropdown-menu about-us">
+                <li class="dropdown-item"><a class="dropdown-item" id="/our-company" href="/our-company">Our company</a></li>
+                <li class="dropdown-item"><a class="dropdown-item" id="/about-us" href="/about-us">Our people</a></li>
+                <li class="dropdown-item"><a class="dropdown-item" id="/faq" href="/faq"><span class="translation_missing" title="translation missing: en.layouts.header.FAQ">Faq</span></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="content">
+
+      <div class="container-banner">
+  <div class="container">
+    <div class="row" style="display: flex;">
+      <div class="col-md-8 container-banner__left">
+        <div class="relative-flex">
+          <h2 class="paragraph1 white">
+            a b2b digital marketplace where fair food trade is made easy, fast and transparent!
+          </h2>
+          <div class="py-5">
+            <div class="output" id="output">
+              <h1 class="cursor"></h1>
+              <p></p>
+            </div>
+          </div>
+          <div class="row social_media_row">
+            <div class="col-lg-6 col-md-4 center">
+                <a href="/users/sign_up"><button class='btn btn__join col-md-12 col-8'>Join Now</button></a>
+            </div>
+            <div class="col-lg-6 col-md-8">
+              <a href="https://www.youtube.com/channel/UCXxytegg70uIUAQ0JtYLXhg" target="_blank"><img class="social_media_icon" src="/assets/icons/youtube-d50ddd3463fca6474d8f6208acfe7fb9b6df4fd0115c7236be8ac898ff2950ec.png" alt="Youtube" /></a>
+              <a href="https://twitter.com/agrimarketplace" target="_blank"><img class="social_media_icon" src="/assets/icons/twitter-decee6f4cc18e3928008dc9752990a79882421798c13b7a05add80724dcdde7b.png" alt="Twitter" /></a>
+              <a href="https://www.linkedin.com/company/agri-marketplace/" target="_blank"><img class="social_media_icon" src="/assets/icons/linkedin-86c3b329b493ce57e613118b55c8ddb281948e9953d386bb4e475ce04c7d24ab.png" alt="Linkedin" /></a>
+              <a href="https://www.instagram.com/agri_marketplace/" target="_blank"><img class="social_media_icon" src="/assets/icons/instagram-9be5bfed286b4ddea96d55630886df1171ce5b0373e678223fb985ba42b2962b.png" alt="Instagram" /></a>
+              <a href="https://www.facebook.com/agrimarketplace" target="_blank"><img class="social_media_icon" src="/assets/icons/facebook-095327a666a198711f2d886aca1aa54bc94eab123b47eb21143ca6371903c101.png" alt="Facebook" /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 container-banner__right d-none d-sm-block">
+        <p class="text-center right__title">Select a product to buy/sell</p>
+
+<div class="row">
+  <div class="container-banner__families mx-auto">
+      <div class="container-banner__family">
+        <a href="/commodities?options=1">
+          <div class="circle-white">
+            <img class="product__img" src="https://AgriBD-prod.s3.eu-central-1.amazonaws.com/store/786d4fafae0d05be446f8777d717dcc7.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAJWG275EEAJRI5EDQ%2F20211207%2Feu-central-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20211207T174417Z&amp;X-Amz-Expires=900&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=6d7da751eac1aa638163137c02365259d612140a3837b51719badb1a0c32242d" alt="786d4fafae0d05be446f8777d717dcc7" />
+          </div>
+          <p class="product__text">Grains </p>
+</a>      </div>
+      <div class="container-banner__family">
+        <a href="/commodities?options=2">
+          <div class="circle-white">
+            <img class="product__img" src="https://AgriBD-prod.s3.eu-central-1.amazonaws.com/store/3381c880c95e5690ddb81c7b8d12eae4.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAJWG275EEAJRI5EDQ%2F20211207%2Feu-central-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20211207T174417Z&amp;X-Amz-Expires=900&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=bd373b01059c93dd8144eb7744ba397c69a068c1237d4fea266aa49897ce005f" alt="3381c880c95e5690ddb81c7b8d12eae4" />
+          </div>
+          <p class="product__text">Nuts </p>
+</a>      </div>
+      <div class="container-banner__family">
+        <a href="/commodities?options=3">
+          <div class="circle-white">
+            <img class="product__img" src="https://AgriBD-prod.s3.eu-central-1.amazonaws.com/store/d48f6971502cf70138d938cd80cbea9a.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAJWG275EEAJRI5EDQ%2F20211207%2Feu-central-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20211207T174417Z&amp;X-Amz-Expires=900&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=c82fe3bcbe5243285223b4f20e3f1e6963a60dbeae71237c1944101844ecffa0" alt="D48f6971502cf70138d938cd80cbea9a" />
+          </div>
+          <p class="product__text">Green Coffee </p>
+</a>      </div>
+      <div class="container-banner__family">
+        <a href="/commodities?options=5">
+          <div class="circle-white">
+            <img class="product__img" src="https://AgriBD-prod.s3.eu-central-1.amazonaws.com/store/b06c0c8d2abf53da897c36716ebaccf6.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAJWG275EEAJRI5EDQ%2F20211207%2Feu-central-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20211207T174417Z&amp;X-Amz-Expires=900&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=47a9cfeadb72ff76a8c44506ae1e46c20a596910d3cb4da211882a1f695861ab" alt="B06c0c8d2abf53da897c36716ebaccf6" />
+          </div>
+          <p class="product__text">Olive Oil </p>
+</a>      </div>
+  </div>
+</div>
+
+<div style="margin-top: 44px;">
+  <div class="container-banner-talk-us-label">Can&#39;t find the Product you are looking for?</div>
+  <button id="contactUs" class="btn btn-talk-to-us">Talk to us</button>
+</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid container-families d-block d-md-none">
+  <p class="text-center right__title">Select a product to buy/sell</p>
+
+<div class="row">
+  <div class="container-banner__families mx-auto">
+      <div class="container-banner__family">
+        <a href="/commodities?options=1">
+          <div class="circle-white">
+            <img class="product__img" src="https://AgriBD-prod.s3.eu-central-1.amazonaws.com/store/786d4fafae0d05be446f8777d717dcc7.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAJWG275EEAJRI5EDQ%2F20211207%2Feu-central-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20211207T174417Z&amp;X-Amz-Expires=900&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=6d7da751eac1aa638163137c02365259d612140a3837b51719badb1a0c32242d" alt="786d4fafae0d05be446f8777d717dcc7" />
+          </div>
+          <p class="product__text">Grains </p>
+</a>      </div>
+      <div class="container-banner__family">
+        <a href="/commodities?options=2">
+          <div class="circle-white">
+            <img class="product__img" src="https://AgriBD-prod.s3.eu-central-1.amazonaws.com/store/3381c880c95e5690ddb81c7b8d12eae4.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAJWG275EEAJRI5EDQ%2F20211207%2Feu-central-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20211207T174417Z&amp;X-Amz-Expires=900&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=bd373b01059c93dd8144eb7744ba397c69a068c1237d4fea266aa49897ce005f" alt="3381c880c95e5690ddb81c7b8d12eae4" />
+          </div>
+          <p class="product__text">Nuts </p>
+</a>      </div>
+      <div class="container-banner__family">
+        <a href="/commodities?options=3">
+          <div class="circle-white">
+            <img class="product__img" src="https://AgriBD-prod.s3.eu-central-1.amazonaws.com/store/d48f6971502cf70138d938cd80cbea9a.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAJWG275EEAJRI5EDQ%2F20211207%2Feu-central-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20211207T174417Z&amp;X-Amz-Expires=900&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=c82fe3bcbe5243285223b4f20e3f1e6963a60dbeae71237c1944101844ecffa0" alt="D48f6971502cf70138d938cd80cbea9a" />
+          </div>
+          <p class="product__text">Green Coffee </p>
+</a>      </div>
+      <div class="container-banner__family">
+        <a href="/commodities?options=5">
+          <div class="circle-white">
+            <img class="product__img" src="https://AgriBD-prod.s3.eu-central-1.amazonaws.com/store/b06c0c8d2abf53da897c36716ebaccf6.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAJWG275EEAJRI5EDQ%2F20211207%2Feu-central-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20211207T174417Z&amp;X-Amz-Expires=900&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=47a9cfeadb72ff76a8c44506ae1e46c20a596910d3cb4da211882a1f695861ab" alt="B06c0c8d2abf53da897c36716ebaccf6" />
+          </div>
+          <p class="product__text">Olive Oil </p>
+</a>      </div>
+  </div>
+</div>
+
+<div style="margin-top: 44px;">
+  <div class="container-banner-talk-us-label">Can&#39;t find the Product you are looking for?</div>
+  <button id="contactUs" class="btn btn-talk-to-us">Talk to us</button>
+</div>
+</div>
+
+<div class="container-solution">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 solution_header">
+        <h1>Our <span class="green">solution</span></h1>
+      </div>
+    </div>
+    <div class="row mb-3">
+      <div class="col-md-12">
+        <p class="solution_p1">Agri Marketplace is a digital B2B market solution that brings together Farmers and Industrial Buyers.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 col-lg-6 center">
+        <img class="img_venn_diagram" src="/assets/solution/venn_diagram-86237fd7d36cf102e842a7e327e490137502292585d150a47faa520bc8980db1.png" alt="Venn diagram" />
+      </div>
+      <div class="col-md-12 col-lg-6 right">
+        <p class="solution_p2">We drive agricultural transactions through our digital platform in combination with our service partnership network. Agri Marketplace accommodates online payments between buyer and seller, product quality check options, and end-to-end logistic services.</p>
+        <p class="solution_p3">Agri Marketplace does not buy or sell crops and is not a broker. Instead, we offer you the ability to effortlessly market your crop via our platform.</p>
+        <div class="row solution_button_row">
+          <div class="col-sm-12 col-md-6 mt-3">
+            <a class="btn" href="/commodities">Explore the marketplace</a>
+          </div>
+          <div class="col-sm-12 col-md-6 mt-3">
+            <a class="btn" href="/our-company">Learn more about us</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row mt-5">
+      <div class="col-md-12 col-lg-6 left">
+        <ul>
+            <li><span>A user-friendly platform that generates market opportunity for farmers and industry buyers.</span></li>
+            <li><span>Unlimited access to a global market from anywhere, at anytime.</span></li>
+            <li><span>Transparent and reliable market information, deal creation and negotiation.</span></li>
+            <li><span>Integrated and secure platform payment processes.</span></li>
+            <li><span>Tailored product quality verification and logistic services.</span></li>
+            <li><span>A market with only verified buyers and sellers.</span></li>
+            <li><span>Customer support &amp; insight.</span></li>
+        </ul>
+      </div>
+      <div class="col-md-12 col-lg-6 right mt-0">
+        <div class="resp-container">
+          <iframe class="resp-iframe" src="https://www.youtube.com/embed/FAvIa27RcyU?rel=0" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="container-value">
+  <div class="container">
+      <h1>
+        Our <span class="green">value</span> proposition
+      </h1>
+      <p>Agri Marketplace accommodates direct transactions between buyers and sellers. All intermediate supply chain stages are covered by Agri MP and our partnership network. See our premium partners for more information.</p>
+    <video width="80%" playsinline="true" autoplay="autoplay" muted="muted" loop="loop" type="video/mp4" src="https://AgriBD-prod.s3.amazonaws.com/public/OVP_Video.mp4"></video>
+  </div>
+</div>
+
+
+<div class="container-how-it-works">
+  <div class="container">
+        <div class="col-md-12 col-lg-6 left">
+          <h1><span class="green">How</span> it works</h1>
+          <h2>Take a look at our <span class="green">platform demo</span>.</h2>
+          <ul>
+              <li type="1">Sign-up to the platform</li>
+              <li type="1">Create your offer or bid</li>
+              <li type="1">Set a quantity &amp; price</li>
+              <li type="1">Provide us with crop characteristics &amp; details</li>
+              <li type="1">Decide upon your preferred incoterm</li>
+              <li type="1">Decide upon logistic and/or crop quality check services</li>
+              <li type="1">Post your seller offer or buyer bid</li>
+              <li type="1">Stay updated by email or notification centre</li>
+          </ul>
+        </div>
+        
