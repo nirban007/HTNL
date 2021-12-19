@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <title>
+        My First Webpage.
+        
+    </title>
+<head>
+    <link rel="stylesheet" href="Stule.css" type="text/css">
+</head>
+<body>
+    <div class="head">
+        <p>Header</p>
+    </div>
+    <div class="menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li>Content</li>
+            <li>Signup</li>
+        </ul>
+    </div>
+    <div class="main">
+        <p>Content</p>
+    </div>
+    <div class="footer">
+        <p>copy right @batch 48th day</p>
+    </div>
+    <div class="sbar"> 
+
+    </div>
+</body>
+</html>
